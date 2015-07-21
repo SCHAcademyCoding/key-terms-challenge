@@ -1,17 +1,17 @@
 describe "Key Terms Challenge" do
 
   it 'is a text-only way of browsing and interacting with your computer' do
-    your_answer = __
+    your_answer = "Command Line"
     expect(your_answer.downcase).to eq(answer_1)
   end
 
   it 'keeps track of the changes you make to a file' do
-    your_answer = __
+    your_answer = "Version Control"
     expect(your_answer.downcase).to eq(answer_2)
   end
 
   it 'downloads onto your computer to keep track of what you do on its site' do
-    your_answer = __
+    your_answer = "Cookies"
     expect(your_answer).to satisfy {|s| answer_3.include?(s.downcase) }
   end
 
