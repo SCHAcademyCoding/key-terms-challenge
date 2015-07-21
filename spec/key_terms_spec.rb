@@ -16,7 +16,7 @@ describe "Key Terms Challenge" do
   end
 
   it 'is the status code for “website not found”' do
-    your_answer = __
+    your_answer = "404 error"
     expect(your_answer.downcase).to eq(answer_4)
   end
 
