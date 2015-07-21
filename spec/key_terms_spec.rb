@@ -1,22 +1,22 @@
 describe "Key Terms Challenge" do
 
   it 'is a text-only way of browsing and interacting with your computer' do
-    your_answer = "Command Line"
+    your_answer = __
     expect(your_answer.downcase).to eq(answer_1)
   end
 
   it 'keeps track of the changes you make to a file' do
-    your_answer = "Version Control"
+    your_answer = __
     expect(your_answer.downcase).to eq(answer_2)
   end
 
   it 'downloads onto your computer to keep track of what you do on its site' do
-    your_answer = "Cookies"
+    your_answer = __
     expect(your_answer).to satisfy {|s| answer_3.include?(s.downcase) }
   end
 
   it 'is the status code for “website not found”' do
-    your_answer = "404 error"
+    your_answer = __
     expect(your_answer.downcase).to eq(answer_4)
   end
 
